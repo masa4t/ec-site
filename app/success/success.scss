@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.goto_shop {
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1 {
+  margin: 10px;
+}
+
+.success {
+  margin: 10px;
+}
+
+.order-summary {
+  width: 800px;
+  position: relative; /* 追加 */
+  h2 {
+    padding: 10px;
+  }
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    flex: 0.2;
+  }
+
+  h2 {
+    flex: 0.4;
+    text-align: right;
+    align-items: center;
+    padding-right: 20px;
+  }
+}
+
+
+.totalAmount {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    bottom: 220px;
+    right: 500px;
+    text-align: right;
+    
+    
+}
+
+
+.loading {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

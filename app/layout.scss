@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.view {
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.store-box {
+    display: flex;
+    // border: 2px solid;
+    width: 1000px;
+    height: 450px;
+    overflow: hidden;
+    overflow-x: auto; 
+    overflow-y: hidden;
+    white-space: nowrap; 
+
+    ul {
+        display: flex;
+       
+
+        
+        li {
+            width:440px;
+            height: 450px;
+            background-position: center;
+            padding: 2px;
+        }
+      
+    }
+
+}
